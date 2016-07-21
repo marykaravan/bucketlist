@@ -116,7 +116,7 @@ a:active {
   top: 0;
 }
 
-#wood-img {
+#map-img {
   background: url("images/map2.png");
   border-image-width: 1px;
   position: relative;
@@ -124,6 +124,8 @@ a:active {
   left: 0;
   width: 1080px;
   height: 500px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 #text {
@@ -141,6 +143,8 @@ div.about {
   z-index: 100;
   position: absolute;
   background-color: #E9CA89;
+  opacity: 0.7;
+  filter: alpha(opacity=10);
   width: 800px;
   height: 350px;
   border: 1px solid black;
