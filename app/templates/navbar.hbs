@@ -1,0 +1,25 @@
+<nav id="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            {{#link-to 'index' class="navbarBrand"}}<a>The BucketList</a>{{/link-to}}
+        </div>
+
+        <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="ulNavbar">
+                {{#link-to 'index' tagName="li" class="liNavbar"}}<a href="">I Wanna Go</a>{{/link-to}}
+            </ul>
+            <ul class="ulNavbar">
+                {{#link-to 'index' tagName="li" class="liNavbar"}}<a href="">I've been</a>{{/link-to}}
+            </ul>
+            <ul class="aboutNavbar">
+                {{#link-to 'about' tagName="li" class="aboutNavbar"}}<a href="">About</a>{{/link-to}}
+            </ul>
+        </div>
+    </div>
+</nav>

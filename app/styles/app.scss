@@ -1,0 +1,148 @@
+@import 'bootstrap';
+//
+//html {
+//  -webkit-background-size: cover;
+//  -moz-background-size: cover;
+//  -o-background-size: cover;
+//  background-size: cover;
+//}
+
+body {
+  padding-top: 20px;
+  background-image: url("images/texture.png");
+}
+
+#navbar {
+  background-color: rgba(92, 42, 25, 0.73);
+  border-color: rgba(92, 42, 25, 0.73);
+  border-radius: 4px;
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  height: 80px;
+  width: 1080px;
+}
+
+.ulNavbar {
+  font-size: 14px;
+  float: left;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.liNavbar {
+  font-size: 14px;
+  float: left;
+  position: relative;
+  display: block;
+  list-style: none;
+  line-height: 20px;
+  text-align: -webkit-match-parent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a {
+  color: #32150b;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #32150b;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #32150b;
+  text-decoration: none;
+}
+
+a:active {
+  color: #32150b;
+  text-decoration: none;
+}
+
+.aboutNavbar {
+  font-size: 14px;
+  float: right;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.aboutNavbar {
+  font-size: 14px;
+  float: right;
+  position: relative;
+  display: block;
+  list-style: none;
+  line-height: 20px;
+  text-align: -webkit-match-parent;
+}
+
+.navbarBrand {
+  float: left;
+  padding: 30px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px;
+}
+
+#about-img {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+#wood-img {
+  background: url("images/map2.png");
+  border-image-width: 1px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1080px;
+  height: 500px;
+}
+
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  right: 550px;
+}
+
+div.about {
+  z-index: 100;
+  position: absolute;
+  background-color: #E9CA89;
+  width: 800px;
+  height: 350px;
+  border: 1px solid black;
+  padding: 25px;
+  margin-top: 80px;
+  margin-left: 140px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
