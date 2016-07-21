@@ -13,8 +13,8 @@ body {
 }
 
 #navbar {
-  background-color: rgba(92, 42, 25, 0.73);
-  border-color: rgba(92, 42, 25, 0.73);
+  background-color: rgba(44, 20, 2, 0.82);
+  border-color: rgba(44, 20, 2, 0.82);
   border-radius: 4px;
   position: relative;
   min-height: 50px;
@@ -51,9 +51,11 @@ body {
 }
 
 a {
-  color: #32150b;
+  color: #1a0b00;
   text-decoration: none;
   background-color: transparent;
+  font-family: fantasy;
+  font-size: 18px;
 }
 
 a:link {
@@ -127,10 +129,12 @@ a:active {
 #text {
   z-index: 100;
   position: absolute;
-  color: white;
-  font-size: 26px;
+  color: #ddc798;
+  font-size: 32px;
   font-weight: bold;
+  font-family: fantasy;
   right: 550px;
+  padding-top: 10px;
 }
 
 div.about {
