@@ -11,6 +11,15 @@ body {
   padding-top: 20px;
   background-image: url("images/ocean.jpg");
 }
+.align-cards {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.aligning {
+  width: 25%;
+  float: left;
+}
 
 #navbar {
   background-color: rgba(84, 197, 207, 0.73);
@@ -116,8 +125,16 @@ a:active {
   top: 0;
 }
 
-#map-img {
-  background: url("images/map2.png");
+#lake-img {
+  background: url("images/lakeBraiesItaly.png");
+  border: none;
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+#turtle-img {
+  background: url("images/turtle.jpg");
   border-image-width: 1px;
   position: relative;
   top: 0;
@@ -131,7 +148,7 @@ a:active {
 #text {
   z-index: 100;
   position: absolute;
-  color: #ddc798;
+  color: black;
   font-size: 32px;
   font-weight: bold;
   font-family: fantasy;
@@ -142,7 +159,7 @@ a:active {
 div.about {
   z-index: 100;
   position: absolute;
-  background-color: #E9CA89;
+  background-color: #a1e8e2;
   opacity: 0.7;
   filter: alpha(opacity=10);
   width: 800px;
